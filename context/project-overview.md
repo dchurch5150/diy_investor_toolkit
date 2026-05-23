@@ -437,3 +437,8 @@ Create a coding-agent-ready implementation specification that includes:
 - Deployment architecture
 - Milestone-based implementation plan
 
+## Screenshots
+
+Refer to the screenshots below for a base for the dasbhoard UI.  It does not have to be exact.  Use it as a reference:
+
+- @context/screenshots/dashboard-ui.png

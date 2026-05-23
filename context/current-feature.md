@@ -20,4 +20,4 @@ Not Started
 
 <!-- Keep this updated. Earliest to latest -->
 
-- Project setup and boilerplate cleanup
+- 2026-05-23: Initial Next.js project setup created with Create Next App
