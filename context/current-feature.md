@@ -1,6 +1,4 @@
-# Current Feature
-
-Portfolio UI Phase 2
+# Current Feature: Portfolio UI Phase 3
 
 ## Status
 
@@ -8,19 +6,18 @@ In Progress
 
 ## Goals
 
-- Collapsible sidebar
-- User avatar area at the top of the sidebar
-- Ticker search bar below user avatar
-- Navigation links: Portfolio, Watchlists, Analytics, Tools
-- Drawer icon to open/close sidebar
-- Always a drawer on mobile view
+- Add four summary stat cards in the top row: Portfolio Value, Total Gain/Loss, Annual Dividend Income, Dividend Yield
+- Add a Portfolio Performance chart card and a Watchlist card (top 5 holdings) in the second row
+- Add a Portfolio Holdings table card in the last row displaying each ticker
+- Wire all cards to mock data from `src/lib/mock-data.ts`
+- Follow the dashboard-ui.png screenshot as a visual reference
 
 ## Notes
 
-- Reference screenshot: @context/screenshots/dashboard-ui.png
-- Spec: @context/features/portfolio-phase-2-spec.md
-- This is phase 2 of 3 for the portfolio UI layout
-- Use a mock user for now
+- All data is mocked via `src/lib/mock-data.ts`
+- Cards should match the dark-mode card style established in phases 1 and 2
+- Use a mock user; no real auth required yet
+- Reference: context/screenshots/dashboard-ui.png
 
 ## History
 
@@ -28,3 +25,4 @@ In Progress
 
 - 2026-05-23: Initial Next.js project setup created with Create Next App
 - 2026-05-23: Portfolio UI Phase 1 completed — ShadCN initialized, /portfolio route with dark mode layout, top bar with index tickers and New Portfolio button, sidebar and main placeholders
+- 2026-05-23: Portfolio UI Phase 2 completed — collapsible sidebar with mock user avatar, ticker search bar, nav links (Portfolio/Watchlists/Analytics/Tools), desktop toggle, mobile overlay drawer, DIY Investor header links to /
