@@ -27,6 +27,7 @@ export const mockHoldings = [
     annualDividendYield: 0.51,
     dividendCagr5yr: 5.8,
     currency: "USD",
+    trend: [142, 148, 145, 155, 160, 158, 165, 170, 168, 175, 182, 189],
   },
   {
     ticker: "META",
@@ -45,6 +46,7 @@ export const mockHoldings = [
     annualDividendYield: 0.39,
     dividendCagr5yr: 0.0,
     currency: "USD",
+    trend: [380, 360, 340, 355, 390, 420, 445, 430, 460, 480, 495, 512],
   },
   {
     ticker: "MSFT",
@@ -63,6 +65,7 @@ export const mockHoldings = [
     annualDividendYield: 0.72,
     dividendCagr5yr: 10.2,
     currency: "USD",
+    trend: [310, 320, 315, 330, 340, 345, 355, 360, 375, 390, 405, 415],
   },
   {
     ticker: "AMZN",
@@ -81,6 +84,7 @@ export const mockHoldings = [
     annualDividendYield: 0.0,
     dividendCagr5yr: 0.0,
     currency: "USD",
+    trend: [175, 195, 210, 198, 185, 178, 192, 205, 188, 195, 190, 187],
   },
   {
     ticker: "COMPHY",
@@ -99,6 +103,7 @@ export const mockHoldings = [
     annualDividendYield: 2.88,
     dividendCagr5yr: 4.1,
     currency: "USD",
+    trend: [28, 29, 30, 31, 30, 32, 33, 34, 35, 36, 37, 38],
   },
 ];
 
